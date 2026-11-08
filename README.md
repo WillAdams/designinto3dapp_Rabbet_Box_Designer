@@ -14,7 +14,7 @@ The drawing pipeline is **parameters → panel dimensions and rabbet regions →
 
 ## 3D model files
 
-Note that the dimensions
+Note that the dimensions and fit and so forth were checked using BlockSCAD
 ## Parameters and derived dimensions
 
 `BoxParameters` is an immutable dataclass; all dimensions are millimetres.
