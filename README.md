@@ -12,7 +12,7 @@ This guide describes how the box parameters become panels, preview drawings, and
 
 The drawing pipeline is **parameters → panel dimensions and rabbet regions → view-specific drawing commands → canvas or DXF entities**. The same geometry helpers feed both the flat preview and DXF exporter so the two stay aligned.
 
-##  
+## P
 
 ## Parameters and derived dimensions
 
