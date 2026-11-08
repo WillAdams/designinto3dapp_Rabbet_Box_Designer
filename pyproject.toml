@@ -1,0 +1,26 @@
+[project]
+name = "rabbet-box-designer"
+version = "1.0.0"
+description = "Design a rabbet-joined sliding-lid box and export its cut layout as a layered DXF."
+requires-python = ">=3.12"
+authors = [
+    { name = "William Adams", email = "willadams@aol.com" }
+]
+dependencies = [
+    "flet"
+]
+
+[dependency-groups]
+dev = [
+    "flet-cli",
+    "flet-desktop",
+    "flet-web"
+]
+
+[tool.flet.metadata]
+title = "Rabbet Box Designer"
+
+[tool.flet]
+org = "designinto3d.com"
+company = "William Adams"
+copyright = "Copyright (C) 2026 by William Adams"
