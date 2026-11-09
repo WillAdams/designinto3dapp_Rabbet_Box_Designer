@@ -185,6 +185,22 @@ class DesignerWorkspace(ft.Column):
                         on_click=self._export_dxf,
                     ),
                     self._status,
+                    ft.Container(expand=True),
+                    ft.Row(
+                        controls=[
+                            ft.Text("A ", color=ft.Colors.BLACK),
+                            ft.TextButton(
+                                content="Design into 3D",
+                                url="https://willadams.gitbook.io/design-into-3d",
+                            ),
+                            ft.Text(" ", color=ft.Colors.BLACK),
+                            ft.TextButton(
+                                content="Project",
+                                url="https://willadams.gitbook.io/design-into-3d/3d-project",
+                            ),
+                        ],
+                        spacing=0,
+                    ),
                 ],
                 expand=True,
             ),
