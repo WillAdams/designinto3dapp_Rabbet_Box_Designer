@@ -176,7 +176,7 @@ class DesignerWorkspace(ft.Column):
                     ),
                     ft.TextButton(
                         content="Carbide 3D Community Forum discussion",
-                        url="https://www.youtube.com/watch?v=V93xDM3lXsM",
+                        url="https://community.carbide3d.com/t/a-simple-cnc-box-in-depth/7530",
                     ),
                     ft.TextButton(
                         content=".c2d template available on Cutrocket",
