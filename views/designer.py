@@ -190,21 +190,37 @@ class DesignerWorkspace(ft.Column):
                     ),
                     self._status,
                     ft.Container(expand=True),
-                    ft.Text(
-                        spans=[
-                            ft.TextSpan(text="A "),
-                            ft.TextSpan(
-                                text="Design into 3D",
-                                url="https://willadams.gitbook.io/design-into-3d",
+                    ft.Row(
+                        controls=[
+                            ft.Text(
+                                spans=[
+                                    ft.TextSpan(text="A "),
+                                    ft.TextSpan(
+                                        text="Design into 3D",
+                                        url="https://willadams.gitbook.io/design-into-3d",
+                                    ),
+                                    ft.TextSpan(text=" "),
+                                    ft.TextSpan(
+                                        text="Project",
+                                        url="https://willadams.gitbook.io/design-into-3d/3d-project",
+                                    ),
+                                    ft.TextSpan(text="."),
+                                ],
+                                color=ft.Colors.BLACK,
                             ),
-                            ft.TextSpan(text=" "),
-                            ft.TextSpan(
-                                text="Project",
-                                url="https://willadams.gitbook.io/design-into-3d/3d-project",
+                            ft.TextButton(
+                                content=ft.Image(
+                                    src="github.svg",
+                                    width=20,
+                                    height=20,
+                                    semantics_label="GitHub repository",
+                                ),
+                                tooltip="View this project on GitHub",
+                                url="https://github.com/WillAdams/designinto3dapp_Rabbet_Box_Designer",
                             ),
-                            ft.TextSpan(text="."),
                         ],
-                        color=ft.Colors.BLACK,
+                        alignment=ft.MainAxisAlignment.SPACE_BETWEEN,
+                        vertical_alignment=ft.CrossAxisAlignment.CENTER,
                     ),
                 ],
                 expand=True,
