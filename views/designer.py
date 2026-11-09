@@ -426,8 +426,7 @@ class DesignerWorkspace(ft.Column):
             on_blur=self._refresh,
             on_submit=self._refresh,
             on_focus=lambda event: self._set_explanation(explanation),
-            min_width=120,
-            expand=True,
+            width=160,
         )
         controls = [field]
         if nudges:
