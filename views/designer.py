@@ -175,6 +175,10 @@ class DesignerWorkspace(ft.Column):
                         url="https://www.youtube.com/watch?v=V93xDM3lXsM",
                     ),
                     ft.TextButton(
+                        content="Sliding box option discussed in this YouTube video",
+                        url="https://www.youtube.com/watch?v=V93xDM3lXsM",
+                    ),
+                    ft.TextButton(
                         content=".c2d template available on Cutrocket",
                         url="https://cutrocket.com/p/x3snfnc9k1mx8",
                     ),
