@@ -186,20 +186,21 @@ class DesignerWorkspace(ft.Column):
                     ),
                     self._status,
                     ft.Container(expand=True),
-                    ft.Row(
-                        controls=[
-                            ft.Text("A ", color=ft.Colors.BLACK),
-                            ft.TextButton(
-                                content="Design into 3D",
+                    ft.Text(
+                        spans=[
+                            ft.TextSpan(text="A "),
+                            ft.TextSpan(
+                                text="Design into 3D",
                                 url="https://willadams.gitbook.io/design-into-3d",
                             ),
-                            ft.Text(" ", color=ft.Colors.BLACK),
-                            ft.TextButton(
-                                content="Project",
+                            ft.TextSpan(text=" "),
+                            ft.TextSpan(
+                                text="Project",
                                 url="https://willadams.gitbook.io/design-into-3d/3d-project",
                             ),
+                            ft.TextSpan(text="."),
                         ],
-                        spacing=0,
+                        color=ft.Colors.BLACK,
                     ),
                 ],
                 expand=True,
