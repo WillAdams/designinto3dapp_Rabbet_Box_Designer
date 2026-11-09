@@ -175,7 +175,7 @@ class DesignerWorkspace(ft.Column):
                         url="https://www.youtube.com/watch?v=V93xDM3lXsM",
                     ),
                     ft.TextButton(
-                        content="Sliding box option discussed in this YouTube video",
+                        content="Carbide 3D Community Forum discussion",
                         url="https://www.youtube.com/watch?v=V93xDM3lXsM",
                     ),
                     ft.TextButton(
